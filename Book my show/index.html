@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Book my show</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <style>
+      #nav-bar {
+        font-family: "Helvetica", FontAwesome, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">
+          <img src="./images/logo.png" alt="pic" />
+          <input type="search" name="search" id="nav-bar" placeholder="  &#xf002 Search for Movies, Events, Plays, Sports and Activities">
+        </div>
+        <div class="right">
+          <button class="city">Mumbai</button>
+          <select name="select-city" id="s-city"></select>
+          <button class="sign">Sign in</button>
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </div>
+      </nav>
+      <div class="nav-bottom">
+        <div class="bottom-left">
+          <a href="">Movies</a>
+          <a href="">Stream</a>
+          <a href="">Events</a>
+          <a href="">Plays</a>
+          <a href="">Sports</a>
+          <a href="">Activities</a>
+          <a href="">Buzz</a>
+        </div>
+        <div class="bottom-right">
+          <a href="">List Your Show</a>
+          <a href="">Corporates</a>
+          <a href="">Offers</a>
+          <a href="">Gift Cards</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="slider-box">
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="./images/pic1.webp" style="width: 100%" />
+          </div>
+
+          <div class="mySlides1">
+            <img src="./images/pic2.webp" style="width: 100%" />
+          </div>
+
+          <div class="mySlides1">
+            <img src="./images/pic3.webp" style="width: 100%" />
+          </div>
+          <div class="mySlides1">
+            <img src="./images/pic4.webp" style="width: 100%" />
+          </div>
+          <div class="mySlides1">
+            <img src="./images/pic5.webp" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+      </section>
+
+      <!-- section2 -->
+
+      <section class="section2">
+        <div class="heading"><h2>Recommended Movies</h2></div>
+        <div class="movies">
+          <div class="set">
+            <img src="./images/img1.webp" alt="pic" />
+            <a href="">Oppenheimer</a>
+            <h4>Biography/Drama/Historical</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img2.webp" alt="pic" />
+            <a href="">Mission impossible</a>
+            <h4>Biography/Drama/Historical</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img3.webp" alt="pic" />
+            <a href="">barbie</a>
+            <h4>Biography/Drama/Historical</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img4.webp" alt="pic" />
+            <a href="">Yash</a>
+            <h4>Biography/Drama/Historical</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img5.webp" alt="pic" />
+            <a href="">Satyam premkahani</a>
+            <h4>Biography/Drama/Historical</h4>
+          </div>
+        </div>
+      </section>
+
+      <div class="middle">
+        <img src="./images/middle.webp" alt="pic" />
+      </div>
+
+      <section class="section3">
+        <div class="heading"><h2>The Best of live events</h2></div>
+        <div class="movies2">
+          <div class="set2">
+            <img src="./images/img6.webp" alt="pic" />
+        
+          </div>
+          <div class="set2">
+            <img src="./images/img7.webp" alt="pic" />
+          
+          </div>
+          <div class="set2">
+            <img src="./images/img8.webp" alt="pic" />
+      
+          </div>
+          <div class="set2">
+            <img src="./images/img9.webp" alt="pic" />
+           
+          </div>
+          <div class="set2">
+            <img src="./images/img10.webp" alt="pic" />
+         
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <!-- section4 -->
+
+      <section class="section4">
+        <img  src="./images/top.webp" class="top" alt="pic" >
+        <div class="heading">
+            <h2>Premiers</h2>
+            <p>Brand new releases every friday</p>
+        </div>
+        <div class="movies4">
+          <div class="set5">
+            <img src="./images/img11.webp" alt="pic" />
+            <a href="">Revolt</a>
+            <h4>english</h4>
+          </div>
+          <div class="set5">
+            <img src="./images/img12.webp" alt="pic" />
+            <a href="">A confession</a>
+            <h4>english</h4>
+          </div>
+          <div class="set5">
+            <img src="./images/img13.webp" alt="pic" />
+            <a href="">Close</a>
+            <h4>english</h4>
+          </div>
+          <div class="set5">
+            <img src="./images/img14.webp" alt="pic" />
+            <a href="">Mid century</a>
+            <h4>english</h4>
+          </div>
+          <div class="set5">
+            <img src="./images/img12.webp" alt="pic" />
+            <a href="">Agam</a>
+            <h4>english</h4>
+          </div>
+        </div>
+      </section>
+
+
+      
+      <!-- section5 -->
+
+      <section class="section2">
+        <div class="heading"><h2>Explore Fun Activities</h2></div>
+        <div class="movies">
+          <div class="set">
+            <img src="./images/img16.webp" alt="pic" />
+            <a href="">Hamley plays</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img17.webp" alt="pic" />
+            <a href="">Water kingdom</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img18.webp" alt="pic" />
+            <a href="">Street food festival</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img19.webp" alt="pic" />
+            <a href="">Snow kingdom</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img20.webp" alt="pic" />
+            <a href="">Camping</a>
+            <h4>English</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 5 -->
+
+      <section class="section2">
+        <div class="heading"><h2>Event Happing near you</h2></div>
+        <div class="movies">
+          <div class="set">
+            <img src="./images/img21.webp" alt="pic" />
+            <a href="">Sanam</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img22.webp" alt="pic" />
+            <a href="">Happy</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img23.webp" alt="pic" />
+            <a href="">Frostland</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img24.webp" alt="pic" />
+            <a href="">The Beatles</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img25.webp" alt="pic" />
+            <a href="">Dance</a>
+            <h4>English</h4>
+          </div>
+        </div>
+      </section>
+
+       <!-- section 6 -->
+
+       <section class="section2">
+        <div class="heading"><h2> Outdoor Event </h2></div>
+        <div class="movies">
+          <div class="set">
+            <img src="./images/img31.webp" alt="pic" />
+            <a href="">Moto Gp</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img32.webp" alt="pic" />
+            <a href="">Paw Patrol</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img33.webp" alt="pic" />
+            <a href=""> Water Park</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img34.webp" alt="pic" />
+            <a href="">Heritage tour</a>
+            <h4>English</h4>
+          </div>
+          <div class="set">
+            <img src="./images/img35.webp" alt="pic" />
+            <a href="">Sachin jighar</a>
+            <h4>English</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 7 -->
+
+      <section class="section3">
+        <div class="heading"><h2>The Best of live events</h2></div>
+        <div class="movies2">
+          <div class="set2">
+            <img src="./images/img6.webp" alt="pic" />
+        
+          </div>
+          <div class="set2">
+            <img src="./images/img7.webp" alt="pic" />
+          
+          </div>
+          <div class="set2">
+            <img src="./images/img8.webp" alt="pic" />
+      
+          </div>
+          <div class="set2">
+            <img src="./images/img9.webp" alt="pic" />
+           
+          </div>
+          <div class="set2">
+            <img src="./images/img10.webp" alt="pic" />
+         
+          </div>
+        </div>
+
+
+      </section>
+
+        <!-- section 8 -->
+
+        <section class="section2">
+            <div class="heading"><h2> Laughter theraphy </h2></div>
+            <div class="movies">
+              <div class="set">
+                <img src="./images/img36.webp" alt="pic" />
+                <a href="">Ravi Gupta</a>
+                <h4>English</h4>
+              </div>
+              <div class="set">
+                <img src="./images/img37.webp" alt="pic" />
+                <a href="">Anibar gupta</a>
+                <h4>English</h4>
+              </div>
+              <div class="set">
+                <img src="./images/img38.webp" alt="pic" />
+                <a href="">Amit tandon</a>
+                <h4>English</h4>
+              </div>
+              <div class="set">
+                <img src="./images/img39.webp" alt="pic" />
+                <a href="">Samay raina</a>
+                <h4>English</h4>
+              </div>
+              <div class="set">
+                <img src="./images/img40.webp" alt="pic" />
+                <a href="">Vipul Goyal</a>
+                <h4>English</h4>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <!-- footer  -->
+
+    <footer class="footer">
+      <div class="book-end">
+        <img src="./images/logo.png" alt="pic" class="footer-pic" />
+        <div class="btn-lan">
+        <button class="btn-end">India</button>
+        <button class="btn-end"> &#xf0ac English</button>
+      </div>
+      </div>
+      <div class="links">
+        <div class="us">
+          <p class="para-end">Get to Know Us</p>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href=""> Press Releases</a>
+          <a href="">Book my show</a>
+        </div>
+        <div class="us">
+          <p class="para-end">Connect with Us</p>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Instagram</a>
+        </div>
+        <div class="us">
+          <p class="para-end">Make Money with Us</p>
+          <a href="">Sell on Book my show</a>
+          <a href="">Sell under Book My show Accelerator</a>
+          <a href="">Protect and Build Your Brand</a>
+          <a href="">Book My show Global Selling</a>
+          <a href="">Become an Affiliate</a>
+         
+        </div>
+
+        <div class="us">
+          <p class="para-end">Let Us Help You</p>
+          <a href="">COVID-19 and Amazon</a>
+          <a href="">Your Account</a>
+          <a href="">Returns Centre</a>
+          <a href="">100% Purchase Protection</a>
+          <a href="">Book My show App Download </a>
+          <a href="">Help </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="useful">
+          <a href="">Conditions of Use & Sale</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Interest-Based Ads</a>
+        </div>
+       <h4> © 1996-2023, Book My show.com, Inc. or its affiliates</h4>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript  -->
+    <script>
+      let slideIndex = [1, 1];
+      let slideId = ["mySlides1", "mySlides2"];
+      showSlides(1, 0);
+      showSlides(1, 1);
+
+      function plusSlides(n, no) {
+        showSlides((slideIndex[no] += n), no);
+      }
+
+      function showSlides(n, no) {
+        let i;
+        let x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {
+          slideIndex[no] = 1;
+        }
+        if (n < 1) {
+          slideIndex[no] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>

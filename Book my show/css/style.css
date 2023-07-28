@@ -1,0 +1,384 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(51, 53, 69);
+  padding: 0.7rem;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+}
+.navbar .left img {
+  width: 9vw;
+  margin-right: 10px;
+}
+
+.navbar .left #nav-bar {
+  width: 40vw;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .right .city {
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: inherit;
+  color: rgb(204, 204, 204);
+
+  line-height: 19px;
+  border: none;
+}
+.navbar .right .city:hover {
+  color: white;
+}
+.navbar .right #s-city {
+  border: none;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar .right .sign {
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 68, 100);
+  font-size: 0.8rem;
+  padding: 0.2rem 0.4rem;
+
+  width: 67px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(248, 68, 100);
+  margin: 0 1.2rem;
+}
+
+.navbar .right .sign:hover {
+  background-color: rgb(167, 9, 9);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar .right i {
+  font-size: 1.3rem;
+}
+.navbar .right i:hover {
+  transition: all;
+  transform: scale(1.2);
+}
+
+/* bottom nav  */
+
+.nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(31, 37, 51);
+}
+
+.nav-bottom .bottom-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 10rem;
+}
+.nav-bottom .bottom-left a {
+  font-size: 0.9rem;
+  color: #cccccc;
+  padding: 0.6rem;
+  font-weight: 500;
+}
+.nav-bottom .bottom-left a:hover {
+  color: white;
+}
+
+.nav-bottom .bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+}
+.nav-bottom .bottom-right a {
+  font-size: 0.8rem;
+  color: #cccccc;
+  padding: 0.6rem;
+  font-weight: 500;
+}
+.nav-bottom .bottom-right a:hover {
+  color: white;
+}
+
+/* section 2 */
+
+.section2 {
+  padding: 2rem 5rem;
+}
+.section2 .heading h2 {
+  margin: 1rem 0;
+}
+
+.section2 .movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+.section2 .movies .set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section2 .movies .set img {
+  width: 15vw;
+  
+
+  border-radius: 7px;
+}
+.section2 .movies .set img:hover {
+  transition: all;
+  transform: scale(1.05);
+}
+.section2 .movies .set a {
+  font-size: 1.2rem;
+  color: black;
+  padding: 0.2rem;
+  font-weight: 500;
+}
+
+.section2 .movies .set h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.middle{
+  width: 98%;
+  margin: auto;
+}
+.middle img {
+  width: 100%;
+ margin: 2rem 0;
+ padding: 1rem 3rem;
+}
+
+/* .section3  */
+
+.section3 {
+  padding: 2rem 5rem;
+}
+
+.section3 .heading h2 {
+  margin: 1rem 2rem;
+  font-size: 1.7rem;
+}
+
+.section3 .movies2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section3 .movies2 .set2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.section3 .movies2 .set2 img {
+  width: 15vw;
+  border-radius: 7px;
+}
+
+.section3 .movies2 .set2 img:hover {
+  transition: all;
+  transform: scale(1.05);
+}
+
+/* section4  */
+
+.section4 {
+  padding: 2rem 5rem;
+  background-color: rgb(43, 49, 72);
+}
+
+.section4 .top {
+  width: 80vw;
+  margin-left: 2rem;
+}
+.section4 .heading h2,
+p {
+  margin: 1rem 2rem;
+  color: white;
+}
+
+.section4 .movies4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section4 .movies4 .set5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.section4 .movies4 .set5 img {
+  width: 15vw;
+  border-radius: 7px;
+}
+
+.section4 .movies4 .set5 img:hover {
+  transition: all;
+  transform: scale(1.05);
+}
+.section4 .movies4 .set5 a {
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.2rem;
+  font-weight: 500;
+}
+.section4 .movies4 .set5 h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+/* footer */
+
+.footer{
+  background: rgb(51, 53, 69);
+  
+  
+ 
+}
+
+.footer .links{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+
+}
+.links .us{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.links .us .para-end{
+  font-size: 1rem;
+  color: white;
+  padding: 1rem 0;
+  font-weight: 600;
+  text-align: start;
+  margin: 0;
+
+
+}
+
+.links .us a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.67);
+  padding: 0.3rem;
+
+}
+
+.links .us a:hover{
+  text-decoration: underline;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright .useful{
+  display: flex;
+  align-items: center;
+
+
+}
+
+.copyright .useful a{
+  text-decoration: none;
+  color: white;
+  margin: 0.7rem 1rem;
+  text-align: center;
+}
+.copyright .useful a:hover{
+  text-decoration: gray underline;
+}
+.copyright h4{
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 1rem ;
+}
+
+.book-end{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.book-end h1{
+  color: white;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.book-end .btn-end{
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-family: "Helvetica", FontAwesome, sans-serif;
+  margin: 0 0.7rem;
+}
+
+.book-end .btn-end:hover{
+  background-color: white;
+  color: black;
+}
+
+.footer .footer-pic{
+  margin: 1rem 5rem ;
+}
+
+.btn-lan{
+  margin: 1rem 5rem ;
+ display: flex;
+}

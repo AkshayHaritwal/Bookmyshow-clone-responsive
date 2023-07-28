@@ -1,0 +1,665 @@
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .navbar .left #nav-bar {
+    font-size: 0.8rem;
+  }
+  .section2 {
+    padding: 2rem 3rem;
+  }
+  .section2 .movies .set a {
+    font-size: 1rem;
+  }
+  .section2 .movies .set h4 {
+    font-size: 0.8rem;
+  }
+  .section2 .heading h2 {
+    font-size: 1.4rem;
+    margin: 0.9rem 0;
+    margin-left: 1.7rem;
+  }
+  .section2 .movies .set {
+    margin: 1rem 0;
+  }
+  .middle img {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem 2.7rem;
+  }
+
+  .section3 {
+    padding: 2rem 2rem;
+  }
+
+  .section3 .heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .section4 {
+    padding: 2rem 3rem;
+  }
+
+  .section4 .top {
+    width: 80vw;
+    margin-left: 2rem;
+  }
+
+  .section4 .heading h2,
+  p {
+    margin: 1rem 2rem;
+    color: white;
+  }
+
+  .section4 .movies4 .set5 a {
+    font-size: 1rem;
+    color: white;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .section4 .movies4 .set5 h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+  }
+
+  .book-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .book-end .btn-end {
+    border: 1px solid gray;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-pic {
+    margin: 1rem 3rem;
+  }
+
+  .btn-lan {
+    margin: 1rem 6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .navbar .left #nav-bar {
+    font-size: 0.7rem;
+    padding: 0.4rem;
+  }
+  .nav-bottom .bottom-left {
+    margin-right: 0;
+  }
+  .nav-bottom .bottom-right {
+    margin-left: 0;
+  }
+  .nav-bottom .bottom-left a {
+    font-size: 0.7rem;
+    color: #cccccc;
+    padding: 0.4rem;
+    font-weight: 500;
+  }
+  .nav-bottom .bottom-right a {
+    font-size: 0.7rem;
+    color: #cccccc;
+    padding: 0.4rem;
+    font-weight: 500;
+  }
+  .section2 {
+    padding: 2rem 1rem;
+  }
+  .section2 .movies .set a {
+    font-size: 1rem;
+  }
+  .section2 .movies .set h4 {
+    font-size: 0.8rem;
+  }
+  .section2 .heading h2 {
+    font-size: 1.3rem;
+    margin: 0.9rem 0;
+    margin-left: 1.2rem;
+  }
+  .section2 .movies .set {
+    margin: 1rem 0.5rem;
+  }
+  .section2 .movies .set img {
+    width: 22vw;
+  }
+  .middle img {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem 2.5rem;
+  }
+
+  .section3 {
+    padding: 1.5rem 2rem;
+  }
+  .section3 .heading h2 {
+    font-size: 1.1rem;
+    margin: 1rem 1.2rem;
+  }
+
+  .section4 {
+    padding: 2rem 2rem;
+  }
+
+  .section4 .top {
+    width: 80vw;
+    margin-left: 2rem;
+  }
+
+  .section4 .heading h2,
+  p {
+    margin: 1rem 2rem;
+    color: white;
+  }
+
+  .section4 .movies4 .set5 a {
+    font-size: 0.7rem;
+    color: white;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .section4 .movies4 .set5 h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0.2rem;
+  }
+  
+
+
+  
+  .footer .footer-pic {
+    margin: 1rem 2rem;
+    width: 18vw;
+  }
+
+  .btn-lan {
+    margin: 1rem 5rem;
+  }
+  .links .us {
+    margin: 0.5rem;
+  }
+  .links .us a{
+    font-size: 0.9rem;
+  }
+  .links .us .para-end {
+    font-size: 0.9rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 600;
+    text-align: start;
+    margin: 0;
+  }
+  .book-end .btn-end {
+    border: 1px solid gray;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.footer .links{
+    margin: 1rem;
+}
+
+.copyright .useful a {
+    font-size: 1rem;
+    margin: 0.7rem 1rem;
+
+}
+.copyright h4 {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+}
+
+@media screen and (max-width: 700px) and (min-width: 450px) {
+  .navbar .left #nav-bar {
+    font-size: 0.6rem;
+    padding: 0.3rem;
+  }
+  .navbar .right .city {
+    font-size: 0.8rem;
+  }
+  .navbar .right i {
+    font-size: 1rem;
+  }
+  .navbar .right .sign {
+    padding: 0.2rem 0.3rem;
+  }
+  .navbar .left {
+    margin-right: 0.3rem;
+  }
+
+  .nav-bottom .bottom-left {
+    margin-right: 0;
+  }
+  .nav-bottom .bottom-right {
+    margin-left: 0;
+  }
+  .nav-bottom .bottom-left a {
+    font-size: 0.5rem;
+    color: #cccccc;
+    padding: 0.3rem;
+    font-weight: 500;
+  }
+  .nav-bottom .bottom-right a {
+    font-size: 0.4rem;
+    color: #cccccc;
+    padding: 0.3rem;
+    font-weight: 500;
+  }
+
+  .section2 {
+    padding: 2rem 1rem;
+  }
+  .section2 .movies .set a {
+    font-size: 1rem;
+  }
+  .section2 .movies .set h4 {
+    font-size: 0.8rem;
+  }
+  .section2 .heading h2 {
+    font-size: 1.2rem;
+    margin: 0.9rem 0;
+    margin-left: 1.7rem;
+  }
+  .section2 .movies .set {
+    margin: 1rem 0.5rem;
+  }
+  .section2 .movies .set img {
+    width: 22vw;
+  }
+  .middle img {
+    width: 100%;
+    margin: 0rem 0;
+    padding: 1rem 2rem;
+  }
+
+  .section3 {
+    padding: 1rem 2rem;
+  }
+  .section3 .heading h2 {
+    font-size: 1rem;
+    margin: 1rem 0.9rem;
+  }
+
+  .section4 {
+    padding: 1.7rem 1rem;
+  }
+
+  .section4 .top {
+    width: 80vw;
+    margin-left: 0.7rem;
+  }
+
+  .section4 .heading h2,
+  p {
+    margin: 0.8rem 0.7rem;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .section4 .movies4 .set5 a {
+    font-size: 0.7rem;
+    color: white;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .section4 .movies4 .set5 h4 {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0.2rem;
+  }
+
+  .footer .footer-pic {
+    margin: 1rem 2rem;
+    width: 18vw;
+  }
+
+  .btn-lan {
+    margin: 1rem 2rem;
+  }
+  .links .us {
+    margin: 0.5rem;
+  }
+  .links .us a{
+    font-size: 0.6rem;
+  }
+  .links .us .para-end {
+    font-size: 0.6rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 600;
+    text-align: start;
+    margin: 0;
+  }
+  .book-end .btn-end {
+    border: 1px solid gray;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+.footer .links{
+    margin: 1rem;
+}
+
+.copyright .useful a {
+    font-size: 0.6rem;
+    margin: 0.7rem 1rem;
+
+}
+.copyright h4 {
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+}
+
+@media screen and (max-width: 450px) and (min-width: 359px) {
+  .navbar .left #nav-bar {
+    font-size: 0.5rem;
+    padding: 0.2rem;
+    width: 30vw;
+  }
+  .navbar .right .city {
+    font-size: 0.8rem;
+  }
+  .navbar .right i {
+    font-size: 1rem;
+  }
+  .navbar .right .sign {
+    padding: 0.2rem 0.2rem;
+    margin: 0 0.7rem;
+    font-size: 0.6rem;
+  }
+  .navbar .left {
+    margin-right: 0.3rem;
+  }
+  .navbar .left img {
+    width: 14vw;
+    margin-right: 6px;
+  }
+  .nav-bottom .bottom-left {
+    margin-right: 0;
+  }
+  .nav-bottom .bottom-right {
+    margin-left: 0;
+  }
+  .nav-bottom .bottom-left a {
+    font-size: 0.4rem;
+    color: #cccccc;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .nav-bottom .bottom-right a {
+    font-size: 0.3rem;
+    color: #cccccc;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+
+  .section2 {
+    padding: 0rem 0rem;
+  }
+  .section2 .movies .set a {
+    font-size: 1rem;
+  }
+  .section2 .movies .set h4 {
+    font-size: 0.8rem;
+  }
+  .section2 .heading h2 {
+    font-size: 1rem;
+    margin: 0.9rem 0;
+    margin-left: 1.9rem;
+  }
+  .section2 .movies .set {
+    margin: 1rem 0.5rem;
+  }
+  .section2 .movies .set img {
+    width: 22vw;
+  }
+  .middle img {
+    width: 100%;
+    margin: 0rem 0;
+    padding: 0.7rem 1.5rem;
+  }
+
+  .section3 {
+    padding: 0.8rem 1rem;
+  }
+  .section3 .heading h2 {
+    font-size: 0.7rem;
+    margin: 1rem 0.7rem;
+  }
+
+  .section4 {
+    padding: 1.5rem 0rem;
+  }
+
+  .section4 .top {
+    width: 80vw;
+    margin-left: 0.9rem;
+  }
+
+  .section4 .heading h2,
+  p {
+    margin: 0.8rem 0.9rem;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .section4 .movies4 .set5 a {
+    font-size: 0.6rem;
+    color: white;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .section4 .movies4 .set5 h4 {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0.2rem;
+  }
+  .footer .footer-pic {
+    margin: 1rem 1.5rem;
+    width: 18vw;
+  }
+
+  .btn-lan {
+    margin: 1rem 2rem;
+  }
+  .links .us {
+    margin: 0.5rem;
+  }
+  .links .us a{
+    font-size: 0.6rem;
+  }
+  .links .us .para-end {
+    font-size: 0.5rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 600;
+    text-align: start;
+    margin: 0;
+  }
+  .book-end .btn-end {
+    border: 1px solid gray;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 5px;
+}
+.footer .links{
+    margin: 0.8rem;
+}
+
+.copyright .useful a {
+    font-size: 0.4rem;
+    margin: 0.7rem 0.4rem;
+
+}
+.copyright h4 {
+    color: white;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+}
+
+@media screen and (max-width: 359px) {
+  .navbar .left #nav-bar {
+    display: none;
+  }
+  .navbar .right .city {
+    display: none;
+  }
+
+  .navbar .right #s-city {
+    display: none;
+  }
+  .navbar .right i {
+    font-size: 1rem;
+  }
+  .navbar .right .sign {
+    padding: 0.2rem 0.2rem;
+    margin: 0 0.7rem;
+    font-size: 0.6rem;
+  }
+  .navbar .left {
+    margin-right: 0.3rem;
+  }
+  .navbar .left img {
+    width: 14vw;
+    margin-right: 6px;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .nav-bottom {
+    display: none;
+  }
+  .section2 {
+    padding: 2rem 0rem;
+  }
+  .section2 .movies .set a {
+    font-size: 1rem;
+  }
+  .section2 .movies .set h4 {
+    font-size: 0.8rem;
+  }
+  .section2 .heading h2 {
+    font-size: 1rem;
+    margin: 0.9rem 0;
+    text-align: center;
+  }
+  .section2 .movies .set {
+    margin: 1rem 0.5rem;
+  }
+  .section2 .movies .set img {
+    width: 22vw;
+  }
+  .middle img {
+    width: 100%;
+    margin: 0rem 0;
+    padding: 1rem 0.5rem;
+  }
+
+  .section3 {
+    padding: 0.7rem 0rem;
+  }
+  .section3 .heading h2 {
+    font-size: 0.5rem;
+    margin: 0.8rem 1rem;
+  }
+
+  .section4 {
+    padding: 1.5rem 0rem;
+  }
+
+  .section4 .top {
+    width: 80vw;
+    margin-left: 0.8rem;
+  }
+
+  .section4 .heading h2,
+  p {
+    margin: 0.8rem 0.8rem;
+    color: white;
+    font-size: 0.7rem;
+  }
+
+  .section4 .movies4 .set5 a {
+    font-size: 0.5rem;
+    color: white;
+    padding: 0.2rem;
+    font-weight: 500;
+  }
+  .section4 .movies4 .set5 h4 {
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0.2rem;
+  }
+  .footer .footer-pic {
+    margin: 1rem 1rem;
+    width: 18vw;
+  }
+
+  .btn-lan {
+    margin: 1rem 2rem;
+  }
+  .links .us {
+    margin: 0.5rem;
+  }
+  .links .us a{
+    font-size: 0.6rem;
+  }
+  .links .us .para-end {
+    font-size: 0.5rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 600;
+    text-align: start;
+    margin: 0;
+  }
+  .book-end .btn-end {
+    border: 1px solid gray;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 5px;
+}
+.footer .links{
+    margin: 0.8rem;
+}
+
+.copyright .useful a {
+    font-size: 0.4rem;
+    margin: 0.7rem 0.4rem;
+
+}
+.copyright h4 {
+    color: white;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+}
